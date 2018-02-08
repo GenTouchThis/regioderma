@@ -1,0 +1,35 @@
+/*
+ Regioderma Style CSS
+*/
+
+.btn-success {
+    color: #fff;
+    background-color: #009688;
+    border-color: #009688;
+    }
+.btn-success:hover {
+    background-color: #00BFA5;
+    border-color: #00BFA5;
+    color: #fff;
+}
+
+.btn-outline.btn-success {
+    color: #009688;
+    background-color: transparent;
+    border-color: #009688;
+}
+
+th {
+	background: #880E4F;
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.scroll-top {
+    background-color: #D500F9;
+    }
+
+.site-footer {
+	background: #FFF;
+}
