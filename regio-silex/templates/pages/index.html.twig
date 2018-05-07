@@ -3,13 +3,14 @@
 {% block title 'Bienvenida' %}
 
 {% block header %}
-        <header class="header header-inverse h-fullscreen p-0 overflow-hidden" data-parallax="{{asset('img/regio-bg001.jpg')}}">
+        <header class="header header-inverse h-fullscreen p-0 overflow-hidden" data-parallax="{{asset('img/regio-main-bg-001.jpg')}}">
             <div class="container">
 
                 <div class="row h-full">
-                    <div class="col-12 align-self-center text-center text-lg-left">
+                    <div class="col-12 align-self-center text-center text-lg-center">
                         <p>
-                            <img src="{{asset('img/regioderma-logo-xl.png')}}" width="90%" alt="..." data-aos="slide-up" data-aos-offset="0">
+                            <br/>
+                            <img src="{{asset('img/regioderma-logo-dark-xl-02.png')}}" alt="..." data-aos="slide-up" data-aos-offset="0">
                         </p>
                     </div>
 
@@ -44,6 +45,7 @@
 
                             <br><br>
                             <img class="mb-40" src="{{asset('img/monterrey-convention.jpg')}}" alt="Monterrey Convention Center">
+                            <img class="mb-40" width="250" src="{{asset('img/sedes_pabellon.png')}}" alt="Monterrey Convention Center">
                         </div>
                     </div>
                 </div>
@@ -133,6 +135,7 @@
                             </a>
                             <br><br>
                             <h6 class="fw-600">Rox R. Anderson</h6>
+                            <img src="{{ asset ('img/flags/usa.jpg')}}" width="20"> USA
                         </div>
 
 
@@ -142,6 +145,7 @@
                             </a>
                             <br><br>
                             <h6 class="fw-600">Michael Gold</h6>
+                            <img src="{{ asset ('img/flags/usa.jpg')}}" width="20"> USA
                         </div>
 
 
@@ -151,6 +155,7 @@
                             </a>
                             <br><br>
                             <h6 class="fw-600">Suneel Chilukuri</h6>
+                            <img src="{{ asset ('img/flags/usa.jpg')}}" width="20"> USA
                         </div>
 
 
@@ -160,6 +165,7 @@
                             </a>
                             <br><br>
                             <h6 class="fw-600">Amit Pandya</h6>
+                            <img src="{{ asset ('img/flags/usa.jpg')}}" width="20"> USA
                         </div>
                     </div>
 
@@ -170,6 +176,7 @@
                             </a>
                             <br><br>
                             <h6 class="fw-600">Christine Dierickx</h6>
+                            <img src="{{ asset ('img/flags/belgica.jpg')}}" width="20"> BELGICA
                         </div>
 
 
@@ -179,6 +186,7 @@
                             </a>
                             <br><br>
                             <h6 class="fw-600">Guiseppe Argenziano</h6>
+                            <img src="{{ asset ('img/flags/italia.jpg')}}" width="20"> ITALIA
                         </div>
 
 
@@ -188,6 +196,7 @@
                             </a>
                             <br><br>
                             <h6 class="fw-600">Susana Puig</h6>
+                            <img src="{{ asset ('img/flags/spain.jpg')}}" width="20"> ESPAÑA
                         </div>
 
 
@@ -197,6 +206,7 @@
                             </a>
                             <br><br>
                             <h6 class="fw-600">Cristina Serrano</h6>
+                            <img src="{{ asset ('img/flags/spain.jpg')}}" width="20"> ESPAÑA
                         </div>
                     </div>
 
@@ -207,6 +217,7 @@
                             </a>
                             <br><br>
                             <h6 class="fw-600">Doris Hexsel</h6>
+                            <img src="{{ asset ('img/flags/brasil.jpg')}}" width="20"> BRASIL
                         </div>
 
 
@@ -216,6 +227,7 @@
                             </a>
                             <br><br>
                             <h6 class="fw-600">Moshe Lapidot</h6>
+                            <img src="{{ asset ('img/flags/israel.jpg')}}" width="20"> ISRAEL
                         </div>
 
 
@@ -225,6 +237,7 @@
                             </a>
                             <br><br>
                             <h6 class="fw-600">John Gaviria</h6>
+                            <img src="{{ asset ('img/flags/colombia.jpg')}}" width="20"> COLOMBIA
                         </div>
 
                     </div>
@@ -244,29 +257,51 @@
                     <div class="section-dialog text-center" data-aos="zoom-in" data-aos-duration="1000">
                         <p>Exposición</p>
                        <hr class="w-70">
-                        <h2>Beneficios especiales</h2>
-                        <p>
-                        	<strong>5% de descuento</strong><br />
-							Empresas/laboratorios que han realizado alguna aportación al CMDNL (SDNL)
-                        </p>
-                        <p>
-                        	<strong>10% de descuento</strong> <br />
-							Empresas/laboratorios que han patrocinado 01 sesión
-                        </p>
+                        <h2>Costos</h2>
+                        <h4>Zona A</h4>
+                        <table class="table table-stripped">
+                            <tr>
+                                <th>Stands</th>
+                                <th>Costo</th>
+                            </tr>
+                            <tr>
+                                <td>3x2 mts. (6m2)</td>
+                                <td>$50,000.00</td>
+                            </tr>
+                            <tr>
+                                <td>3x3 mts. (9m2)</td>
+                                <td>$50,000.00</td>
+                            </tr>
+                            <tr>
+                                <td>6x6 mts. (36m2)</td>
+                                <td>$150,000.00</td>
+                            </tr>
+                        </table>
 
+                        <h4>Zona B</h4>
+                        <table class="table table-stripped">
+                            <tr>
+                                <th>Stands</th>
+                                <th>Costo</th>
+                            </tr>
+                            <tr>
+                                <td>3x2 mts. (6m2)</td>
+                                <td>$35,000.00</td>
+                            </tr>
+                        </table>
                         <p>
-                        	<strong>15% de descuento </strong><br />
-							Empresas/laboratorios que han patrocinado 02 ó 03 sesiones
+                            <strong>El costo incluye:</strong><br />
+                            &middot; Delimitación de espacio con energía eléctrica<br />
+                            &middot; Zona A: 03 becas al 100% para foráneos, residentes de Dermatología o Dermatólogos jóvenes (máximo 05 años de haber egresado)<br />
+                            &middot; Zona B: 02 becas al 100% para foráneos, residentes de Dermatología o Dermatólogos jóvenes (máximo 05 años de haber egresado)
                         </p>
                         <p>
-                        	<strong>20% de descuento </strong><br />
-							Empresas/laboratorios que han patrocinado 04 ó más sesiones
+                            <small><strong>Precios más el 16% de IVA</strong></small>
                         </p>
-
                         <hr class="w-50">
 
                         <div class="text-center gap-multiline-items-2 my-30">
-                            <a class="btn btn-lg btn btn-outline btn-success" href="{{asset('img/plano.jpg')}}" data-provide="lightbox">Ver Plano de Exposición</a>
+                            <a class="btn btn-lg btn btn-outline btn-success" href="{{asset('img/plano.jpg')}}" data-provide="lightbox">Ver Plano de Exposición</a> <a class="btn btn-round btn-success" href="{{asset('pdf/formato-reserva-expo.pdf')}}" data-provide="lightbox"><i class="ti-download"></i> Descargar Formato de Reservación Expo</a>
                         </div>
 
                     </div>
@@ -360,26 +395,43 @@
 					</div>
             </section>
 
+            <section class="section" id="section-hospedaje" style="background-color: #ECEFF1">
+                <div class="container-fluid">
+                    <header class="section-header">
+                        <img src="{{asset('img/cdnl-shield.png')}}" width="120" alt="Regioderma 2019" ><br />
+                        <small>Regioderma 2019</small>
+                        <h2>Hospedaje</h2>
+                        <hr>
+                        <h4>
+                            Cuotas y Hoteles disponibles próximamente
+                        </h4>
+                    </header>
+            </section>
+
             <section class="section section-inverse" data-parallax="{{asset('img/regioderma-004.jpg')}}" data-overlay="4" id="section-contacto">
             	<div class="container">
             		<div class="col-12 col-md-6 offset-md-3">
             			<header class="section-header">
             				<img src="{{asset('img/cdnl-shield.png')}}" width="120" alt="Regioderma 2019" >
             				<br />
-	                        <small>Regioderma 2019</small>
-	                        <h2>Contacto</h2>
-	                        <hr>
-	                        <p class="lead">
-								Para solicitar información sobre Expo o para pedir un stand favor de enviar un correo a:
-								<a href="mailto:expo@regioderma.mx">expo@regioderma.mx</a><br />
-                                Para solicitar información del evento favor de contactar al siguiente
-								<a href="contacto@sdnl.org.mx">contacto@sdnl.org.mx</a><br /> 
+                            <small>Regioderma 2019</small>
+                            <h2>Contacto</h2>
+                            <hr>
+                        </header>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h3>Información General</h3>
+                            <p class="lead">
                                 <strong>Viridiana Tellechea</strong><br />
-								Tel. 55 55230628 ext. 106 <br />
+                                <a href="mailto:grupos@eventagemexico.com">grupos@eventagemexico.com</a><br />
+                                Tel. 55 55230628 ext. 106 <br />
                                 <img src="{{asset ('img/eventage-logo.png')}}">
-	                        </p>
-                    	</header>
-            		</div>
+                            </p>
+                		</div>
+                    </div>
             	</div>
             </section>
 {% endblock %}
